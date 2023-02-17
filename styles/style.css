@@ -18,12 +18,51 @@ section {
     border: 1px solid black;
     display: flex;
     flex-direction: column;
-    width: 800px;
+    width: 500px;
     text-align: center;
     gap: 50px;
+    display: grid;
 }
 
 form {
     display: flex;
     flex-direction: column;
+    gap: 20px;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+li {
+    font-size: 22px;
+    width: 50px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    list-style: none;
+    display: grid;
+    place-content: center;
+}
+
+ul > li:hover{
+    background-color: rgb(61, 61, 61);
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+li:nth-of-type(1) {
+    color: white;
+    background-color: #4267B2;
+}
+
+li:nth-of-type(2) {
+    color: white;
+    background-color: #00acee;
+}
+
+li:nth-of-type(3) {
+    color: white;
+    background-color: #DB4437;
 }
