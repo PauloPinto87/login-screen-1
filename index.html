@@ -22,12 +22,20 @@
         </header>
         <form action="">
             <label for="Username">Username</label>
-            <input type="text" name="Username" id="Username">
+            <div class="container-icone-input">
+                <i class="fa-regular fa-user icon"></i>
+                <input type="text" name="Username" id="Username" placeholder="Type your username">
+            </div>
+
 
             <label for="Password">Password</label>
-            <input type="password" name="Password" id="Password">
+            <div class="container-icone-input">
+                <i class="fa-solid fa-lock icon"></i>
+                <input type="password" name="Password" id="Password" placeholder="Type your password">
+            </div>
 
-            <p>Forgot password?</p>
+
+            <p class="forgot-password">Forgot password?</p>
 
             <button type="submit">LOGIN</button>
         </form>
