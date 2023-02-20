@@ -1,0 +1,38 @@
+body {
+    background-image: url('../img/wallpaper.png');
+    background-size: cover;
+}
+
+section {
+    max-width: 500px;
+    padding: 65px 60px;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 10% 70% 20%;
+    text-align: center;
+}
+
+.container-icone-input{
+    gap: 15px;
+    margin: 10px 0px 40px 0px;
+    padding-left: 12px;
+    color: #a8a8a8;
+    padding-bottom: 12px;
+}
+
+.forgot-password {
+    margin-bottom: 30px;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+button {
+    margin-bottom: 10px;
+}
